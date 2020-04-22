@@ -69,6 +69,7 @@ public class GodotFirebaseDatabase extends Godot.SingletonBase {
         addSignal("FirebaseDatabase", "child_removed", new String[] {"Ljava/lang/String;", "Ljava/lang/Object;"});
         activity = (Godot)p_activity;
         database = FirebaseDatabase.getInstance();
+        database.setPersistenceEnabled(true);
         dbref = database.getReference();
     }
 
