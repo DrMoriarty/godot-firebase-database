@@ -1,0 +1,11 @@
+[config]
+
+name="FirebaseDatabase"
+binary_type="remote"
+binary="ru.mobilap.godot:godot-firebase-database:+"
+
+[dependencies]
+
+local=[]
+remote=[]
+custom_maven_repos=["https://dl.bintray.com/mobilap/maven/"]
