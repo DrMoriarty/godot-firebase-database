@@ -1,11 +1,5 @@
-# godot-firebase-database
+# Firebase Database plugin for godot engine. 
 
-Firebase Database plugin for godot engine. You need godot version 3.2.2.beta or higher.
+## Installation
 
-## Android usage
-
-Copy `FirebaseDatabase.gdap` to `android/plugins`. Then enable plugin `FirebaseDatabase` in export settings.
-
-## iOS usage
-
-Coming soon...
+Use [NativeLib Addon](https://github.com/DrMoriarty/nativelib) or [NativeLib-CLI](https://github.com/DrMoriarty/nativelib-cli) for installation.
