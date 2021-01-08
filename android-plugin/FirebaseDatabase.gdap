@@ -1,8 +1,8 @@
 [config]
 
 name="FirebaseDatabase"
-binary_type="remote"
-binary="ru.mobilap.godot:godot-firebase-database:+"
+binary_type="local"
+binary="FirebaseDatabase.release.aar"
 
 [dependencies]
 

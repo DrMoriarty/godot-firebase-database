@@ -1,0 +1,22 @@
+{
+  "name": "firebase-database",
+  "description": "Firebase Database plugin",
+  "version": "0.1.0",
+  "license": "MIT",
+  "url": "https://github.com/DrMoriarty/godot-firebase-database",
+  "dependencies": [
+    "firebase-core"
+  ],
+  "files": {
+    "scripts": "scripts"
+  },
+  "autoload": {
+    "database": "*res://scripts/database.gd"
+  },
+  "platform_android": {
+    "files": {
+      "android-plugin/FirebaseDatabase.gdap": "android/plugins/",
+      "android-plugin/build/outputs/aar/FirebaseDatabase.release.aar": "android/plugins/"
+    }
+  }
+}
