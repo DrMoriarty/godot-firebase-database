@@ -2,7 +2,7 @@
   "name": "firebase-database",
   "display_name": "Firebase Database",
   "description": "Firebase Database plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "godot_version": "3.3.0",
   "license": "MIT",
   "url": "https://github.com/DrMoriarty/godot-firebase-database",
