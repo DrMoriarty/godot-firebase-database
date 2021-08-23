@@ -7,5 +7,5 @@ binary="FirebaseDatabase.release.aar"
 [dependencies]
 
 local=[]
-remote=[]
+remote=["com.google.firebase:firebase-database:20.0.1"]
 custom_maven_repos=["https://dl.bintray.com/mobilap/maven/"]

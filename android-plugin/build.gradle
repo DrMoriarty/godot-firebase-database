@@ -49,7 +49,7 @@ dependencies {
      library when building the final binary.
      */
     compileOnly fileTree(dir: 'libs', include: ['godot-lib*.aar'])
-    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.google.firebase:firebase-database:20.0.1'
 }
 
 group = 'ru.mobilap.godot'
